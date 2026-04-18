@@ -815,7 +815,7 @@
     <div class="section-label">Subject Property</div>
     <div class="section-title">Property Overview</div>
     <div class="divider"></div>
-    <p class="section-desc">A 1975 ranch-style home on a wooded lot in Windham, currently mid-rehabilitation. The property requires significant capital improvements including a new roof, 200-amp electrical panel upgrade, and removal of an unauthorized ADU to restore single-family status.</p>
+    <p class="section-desc">A 1975 single-story home on a 1.07-acre wooded lot in Windham, currently mid-rehabilitation. Windham public records classify the structure as a two-family duplex (use code 1040) with 1,872 sf of main-floor living area, 936 sf of finished basement, and a total town assessment of $530,000 (land $138,900 + improvements $391,100). Under the analysis here the property is evaluated as a single-family home with the unauthorized accessory unit removed &mdash; reverting the bath count to the main unit only and the basement to unfinished.</p>
   </div>
 
   <div class="stats-row">
@@ -824,18 +824,39 @@
       <div class="label">Bedrooms</div>
     </div>
     <div class="stat-box">
-      <div class="number">1</div>
-      <div class="label">Bathroom</div>
+      <div class="number">1<span style="font-size: 20px; color: var(--gray);">*</span></div>
+      <div class="label">Bathroom (Main)</div>
     </div>
+    <div class="stat-box">
+      <div class="number">1,872</div>
+      <div class="label">Sq Ft (Main Floor)</div>
+    </div>
+    <div class="stat-box">
+      <div class="number">1.07</div>
+      <div class="label">Acres</div>
+    </div>
+  </div>
+
+  <div class="stats-row" style="margin-top: 20px;">
     <div class="stat-box">
       <div class="number">1975</div>
       <div class="label">Year Built</div>
     </div>
     <div class="stat-box">
       <div class="number">Ranch</div>
-      <div class="label">Style</div>
+      <div class="label">Style (Post-ADU)</div>
+    </div>
+    <div class="stat-box">
+      <div class="number">$530K</div>
+      <div class="label">Town Assessment</div>
+    </div>
+    <div class="stat-box">
+      <div class="number">Grade 04</div>
+      <div class="label">Assessor Grade</div>
     </div>
   </div>
+
+  <p style="font-size: 12px; color: var(--gray); margin-top: 16px; font-style: italic;">*Tax card reports 2 full + 1 half bath total across the two-family structure; the additional bath and half-bath are associated with the accessory unit scheduled for removal. Post-ADU, the primary single-family unit retains 1 bathroom.</p>
 
   <div class="features-grid">
     <div class="feature-item">
@@ -856,7 +877,7 @@
       <div class="feature-icon">&#9660;</div>
       <div class="feature-text">
         <strong>Full Basement</strong>
-        Unfinished with oil boiler &amp; utility space
+        936 sf finished (ADU space) + 936 sf unfinished utility
       </div>
     </div>
     <div class="feature-item">
@@ -882,8 +903,98 @@
     </div>
   </div>
 
+  <!-- Public Records / Tax Card Summary -->
+  <div class="improvements" style="margin-top: 36px; border-color: var(--navy);">
+    <h3 style="color: var(--navy);">Public Records Summary &mdash; Windham Tax Card</h3>
+    <p style="font-size: 14px; color: var(--gray); margin-bottom: 20px;">Source: Town of Windham / actDataScout assessor database. Map-Lot: <strong>9-27-J</strong> &bull; Account #: <strong>009027J00000</strong> &bull; PID 1002.</p>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray); width: 40%;">Use Code / Classification</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">1040 &mdash; Two Family / Family Duplex</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Bedrooms / Bathrooms (per tax card)</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">3 Bed &bull; 2 Full + 1 Half Bath (across entire structure)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Living Area (Main Floor)</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">1,872 sq ft</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Basement</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">936 sf Finished + 936 sf Unfinished (1,872 sf total)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Garage</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">624 sf (attached)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Lot Size</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">1.07 acres</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Year Built</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">1975 (51 years old)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Style / Model</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Family Duplex &bull; 1 story</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Exterior Wall</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Wood Shingle</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Roof</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Gable/Hip &bull; Asph/F Gls/Cmp shingle</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Heat</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Oil &bull; Hot Water (baseboard)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Assessor Grade / Condition</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Grade 04 (Average Low) &bull; Condition: Good</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Extra Features</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">Hearth (1 unit, $600) &bull; Shed 96 sf ($1,400) &bull; Canopy 80 sf ($600)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Current Owner</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">O'Brien David R Jr &amp; Jill A</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--light-gray);">
+          <td style="padding: 10px 12px; color: var(--gray);">Most Recent Transfer</td>
+          <td style="padding: 10px 12px; color: var(--dark); font-weight: 600;">11/19/2025 &bull; Book 41928 / Page 63 &bull; $1 (estate / heirs transfer from Wain Sandra J)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+      <div style="padding: 20px; background: var(--cream); border-radius: 10px; text-align: center;">
+        <div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--navy);">$530,000</div>
+        <div style="font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; margin-top: 6px;">Total Town Assessment</div>
+      </div>
+      <div style="padding: 20px; background: var(--cream); border-radius: 10px; text-align: center;">
+        <div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--navy);">$138,900</div>
+        <div style="font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; margin-top: 6px;">Land Assessment</div>
+      </div>
+      <div style="padding: 20px; background: var(--cream); border-radius: 10px; text-align: center;">
+        <div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--navy);">$391,100</div>
+        <div style="font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; margin-top: 6px;">Improvement Assessment</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 20px; padding: 16px 20px; background: var(--orange-light); border-left: 4px solid var(--orange); border-radius: 6px;">
+      <p style="font-size: 13px; color: var(--dark); line-height: 1.7;"><strong style="color: var(--orange);">Assessment vs. As-Is Value Context:</strong> The $530,000 town assessment assumes a finished, legally-conforming two-family structure in Good condition. It does not account for (a) the required removal of the accessory unit to restore single-family status, (b) the mid-rehab condition observed on site, (c) the new roof, electrical, siding, driveway, and water-filtration capital items documented in this report, or (d) the $1 heirs transfer reflecting an off-market succession rather than an arms-length market sale. The as-is market value derived from comparable sales (below) accordingly falls well short of the assessed figure.</p>
+    </div>
+  </div>
+
   <!-- Rehab Status -->
-  <div class="improvements" style="border-color: var(--red);">
+  <div class="improvements" style="margin-top: 36px; border-color: var(--red);">
     <h3 style="color: var(--red);">Rehabilitation Status &mdash; Work Remaining</h3>
     <div class="rehab-grid">
       <div class="rehab-item rehab-needed">
@@ -1189,7 +1300,7 @@
       });
       L.marker([subjectLat, subjectLng], {icon: subjectIcon})
         .addTo(map)
-        .bindPopup('<strong style="font-size:14px;">103 Swett Road</strong><br>Subject Property<br><em>3 Bed / 1 Bath / Ranch / 1975</em>')
+        .bindPopup('<strong style="font-size:14px;">103 Swett Road</strong><br>Subject Property<br><em>3 Bed / 1 Bath (post-ADU) &middot; 1,872 sf &middot; 1.07 ac &middot; 1975</em>')
         .openPopup();
 
       // Comp markers with numbers
@@ -1428,7 +1539,7 @@
         </tr>
         <tr>
           <td>Above-Grade Sq Ft</td>
-          <td>&mdash;</td>
+          <td><strong>1,872</strong></td>
           <td>1,816</td>
           <td>1,288</td>
           <td>1,247</td>
@@ -1437,7 +1548,7 @@
         </tr>
         <tr>
           <td>Below-Grade Finished Sq Ft</td>
-          <td>0</td>
+          <td>0 (post-ADU)</td>
           <td>0</td>
           <td>532</td>
           <td>572</td>
@@ -1446,7 +1557,7 @@
         </tr>
         <tr>
           <td>Total Finished Sq Ft</td>
-          <td>&mdash;</td>
+          <td><strong>1,872</strong></td>
           <td>1,816</td>
           <td>1,820</td>
           <td>1,819</td>
@@ -1455,7 +1566,7 @@
         </tr>
         <tr>
           <td>Lot Size (Acres)</td>
-          <td>&mdash;</td>
+          <td><strong>1.07</strong></td>
           <td>4.01</td>
           <td>1.94</td>
           <td>0.46</td>
@@ -1473,7 +1584,7 @@
         </tr>
         <tr>
           <td>Basement</td>
-          <td>Full, Unfin.</td>
+          <td>Full: 936 Fin (ADU) / 936 Unfin</td>
           <td>Bulkhead, Unfin.</td>
           <td>Daylight, Fin.</td>
           <td>Bulkhead, Fin.</td>
@@ -1568,7 +1679,7 @@
           <td class="adj-negative">&minus;$10,000</td>
         </tr>
         <tr>
-          <td>Bathrooms (Subject: 1 vs Comp)</td>
+          <td>Bathrooms (Main Unit: 1 &mdash; tax card 2F+1H is duplex total)</td>
           <td class="adj-negative">&minus;$10,000</td>
           <td class="adj-negative">&minus;$10,000</td>
           <td class="adj-negative">&minus;$15,000</td>
@@ -1584,7 +1695,7 @@
           <td class="adj-neutral">$0</td>
         </tr>
         <tr>
-          <td>Finished Basement (Subject: None)</td>
+          <td>Finished Basement (Subject: None post-ADU &mdash; tax card 936 sf is ADU-linked)</td>
           <td class="adj-neutral">$0</td>
           <td class="adj-negative">&minus;$15,000</td>
           <td class="adj-negative">&minus;$15,000</td>
@@ -1683,7 +1794,7 @@
 
   <div style="margin-top: 16px; padding: 20px 28px; background: var(--cream); border-radius: 12px; border-left: 4px solid var(--red);">
     <p style="font-size: 14px; color: var(--gray); line-height: 1.7;">
-      <strong style="color: var(--red);">ADU Compliance Risk:</strong> The unauthorized ADU creates a legal non-conformity. Buyers and lenders may require its removal before closing or discount the property further due to permitting risk. The $7,500 adjustment reflects the estimated cost of physical removal and restoration, but does not account for potential buyer reluctance or lender complications which could further impact marketability.
+      <strong style="color: var(--red);">ADU Compliance Risk:</strong> Although the Windham tax card classifies the structure as a two-family duplex (use code 1040), the accessory unit is understood to lack current permits/code compliance and is treated as an unauthorized ADU for this analysis. Buyers and lenders may require its removal before closing or discount the property further due to permitting risk. The $7,500 adjustment reflects the estimated cost of physical removal and restoration, but does not account for potential buyer reluctance or lender complications which could further impact marketability. Any potential value from preserving the duplex use (if compliance could be documented) has <em>not</em> been attributed here.
     </p>
   </div>
 </div>
@@ -1755,7 +1866,7 @@
     <div class="label">Estimated As-Is Market Value</div>
     <div class="value-range">$310,000 &ndash; $360,000</div>
     <p class="value-note">
-      Based on analysis of five comparable sales in Windham, adjusted for the subject's mid-rehab condition, deferred maintenance, unauthorized ADU, required capital improvements, aged wood-shingle siding, damaged driveway, and well water quality requiring a 5-chamber filtration system with annual testing.
+      Based on analysis of five comparable sales in Windham, adjusted for the subject's mid-rehab condition, deferred maintenance, unauthorized ADU, required capital improvements, aged wood-shingle siding, damaged driveway, and well water quality requiring a 5-chamber filtration system with annual testing. Note this as-is range is materially below the $530,000 Windham town assessment, which assumes a finished, legally-conforming two-family in Good condition and does not reflect the capital repair items identified on site.
     </p>
     <div class="value-rationale">
       <div class="rationale-item">
